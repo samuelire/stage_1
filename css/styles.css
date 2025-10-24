@@ -1,0 +1,167 @@
+/* COntact us */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for error */
+.contact-error{
+  color: red;
+}
+.contact-error-border{
+  border-bottom: 1px solid red;
+
+}
+/* for success */
+.contact-success{
+  color: #28A7A5;
+  text-align: center;
+}
+
+.contact-success-border{
+  border-bottom: 1px solid #28A7A5;
+}
+body{
+  
+  width:100%;
+  height: 100%;
+  background-image: url('../assets/bxr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+.contact-h1{
+  position: relative;
+  top : 155px;
+  text-align: center;
+}
+.contact-main{
+  height: 100%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 50vw;
+  justify-self: center;
+  background-color: rgb(96, 94, 94);
+  border-radius: 10px;
+  margin-top: 20vh;
+}
+  
+div{
+  width: 45vh;
+  height: 100%;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.contact-us{
+  width: 38vh;
+  padding: 20px;
+}
+label{
+  display: block;
+  margin: 10px 0 ;
+  margin-left: 30px;
+}
+ input,textarea{
+  width: 75%;
+  padding: 5px;
+  margin-left: 30px;
+  outline: none;
+  resize: none;
+  border: none;
+  box-sizing: border-box;
+ }
+
+ input[type="submit"]{
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+  margin-left: 22%;
+  background-color: rgb(237, 232, 232), rgb(36, 36, 36);
+  background: linear-gradient(to right, rgb(237, 232, 232), rgb(36, 36, 36));
+  transition: background-position 0.7s ;
+  border-radius: 5px;
+
+}
+ input[type="submit"]:hover{
+   background: linear-gradient(to right, rgb(36, 36, 36), rgb(237, 232, 232));
+ }
+ small{
+  margin-left: 30px;
+ }
+ @media  screen and ( max-width: 1400px) {
+  main{
+  height: 100%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 80vw;
+  justify-self: center;
+  background-color: rgb(96, 94, 94);  
+  margin-top: 20vh;
+}
+ }
+ @media screen and (min-width: 650px) and (max-width: 1400px){
+  main{
+    min-width: 40vw;
+    max-width: 55vw;
+  }
+ }
+/* About us  */
+body{
+
+}
+.about-me{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
+  justify-items: center;
+  align-items: center;
+  width: 40VW;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.about-meb{
+  background-image: url('../assets/about-us.png');
+}
+.about-header{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 2px;
+
+  
+}
+hr{
+  border: 2px solid rgb(204, 204, 204);
+  margin-bottom: 10px;
+}
+/* connecting page */
+.main{
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.div{
+  padding: 10px;
+  margin: 30px;
+  
+}
+.but{
+  background-color:aqua;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+
+}
