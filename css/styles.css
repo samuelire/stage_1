@@ -30,7 +30,7 @@ body{
 }
 .contact-h1{
   position: relative;
-  top : 155px;
+  top : 135px;
   text-align: center;
 }
 .contact-main{
@@ -92,7 +92,7 @@ label{
   margin-left: 30px;
  }
  @media  screen and ( max-width: 1400px) {
-  main{
+  .contact-main{
   height: 100%;
   display: flex ;
   flex-direction: column;
@@ -106,7 +106,7 @@ label{
 }
  }
  @media screen and (min-width: 650px) and (max-width: 1400px){
-  main{
+  .contact-main{
     min-width: 40vw;
     max-width: 55vw;
   }
@@ -116,7 +116,7 @@ body{
 
 }
 .about-me{
-  height: 100vh;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,27 +131,21 @@ body{
 }
 .about-meb{
   background-image: url('../assets/about-us.png');
+  height: 100%;
 }
 .about-header{
   text-align: center;
   margin-bottom: 10px;
 }
 
-section {
-  margin-bottom: 2px;
 
-  
-}
 hr{
   border: 2px solid rgb(204, 204, 204);
   margin-bottom: 10px;
 }
 /* connecting page */
 .main{
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  height: 100%;
+  
 }
 .div{
   padding: 10px;
